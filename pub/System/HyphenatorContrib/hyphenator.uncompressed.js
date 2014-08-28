@@ -167,7 +167,7 @@ var Hyphenator = (function (window) {
          * A string storing the basepath from where hyphenator.js was loaded.
          * This is used to load the patternfiles.
          * The basepath is determined dynamically by searching all script-tags for hyphenator.js
-         * If the path cannot be determined http://hyphenator.googlecode.com/svn/trunk/ is used as fallback.
+         * If the path cannot be determined https://hyphenator.googlecode.com/svn/trunk/ is used as fallback.
          * @type {string}
          * @private
          * @see Hyphenator-loadPatterns
@@ -185,7 +185,7 @@ var Hyphenator = (function (window) {
                 i += 1;
                 t = s[i];
             }
-            return !!r ? r : 'http://hyphenator.googlecode.com/svn/trunk/';
+            return !!r ? r : 'https://hyphenator.googlecode.com/svn/trunk/';
         }()),
 
         /**

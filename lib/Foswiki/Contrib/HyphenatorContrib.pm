@@ -18,8 +18,8 @@ package Foswiki::Contrib::HyphenatorContrib;
 use strict;
 use warnings;
 
-our $VERSION = '3.01';
-our $RELEASE = '3.01';
+our $VERSION = '3.02';
+our $RELEASE = '3.02';
 our $SHORTDESCRIPTION = 'Automatically hyphenates text';
 our $NO_PREFS_IN_TOPIC = 1;
 

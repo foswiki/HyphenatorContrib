@@ -115,6 +115,7 @@ Dieser Text wird mit deutscher Silbentrennung verarbeitet.
 |  Release: | %$RELEASE% |
 |  Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  28 Aug 2014: | (3.02) use https by default talking to google |
 |  15 Mar 2014: | (3.01) fixed syntax error in contrib stub |
 |  07 Nov 2013: | (3.00) upgraded to Hyphenator-4.2.0 |
 |  09 Aug 2011: | (2.00) upgraded to Hyphenator-4.0.0 |

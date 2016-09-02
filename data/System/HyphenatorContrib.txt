@@ -1,10 +1,10 @@
 %META:TOPICINFO{author="ProjectContributor" comment="reprev" date="1307359498" format="1.1" reprev="2" version="2"}%
 ---+!! %TOPIC%
-%SHORTDESCRIPTION%
+%FORMFIELD{"Description"}%
 
 %TOC%
 
-This is a jQuery plugin integrating [[http://code.google.com/p/hyphenator/][Hyphenator.js]] by Mathias Nater.
+This is a jQuery plugin integrating [[http://mnater.github.io/Hyphenator/][Hyphenator.js]] by Mathias Nater.
 
 Hyphenator.js ...
 
@@ -32,10 +32,10 @@ Supported languages are:
    * Finnish (thanks to Olli Wilkman)
    * French
    * German
-   * Greek, monoton, polyton and ancient (thanks to Pablo Rodríguez)
-   * Hungarian (thanks to Péter Nagy)
+   * Greek, monoton, polyton and ancient (thanks to Pablo Rodr&iacute;guez)
+   * Hungarian (thanks to P&eacute;ter Nagy)
    * Italian (thanks to Stefano Gorini)
-   * Latin (thanks to Pablo Rodríguez)
+   * Latin (thanks to Pablo Rodr&iacute;guez)
    * Latvian (thanks to Kristaps Karlsons)
    * Lithuanian (thanks to Rogut&#279;s Sparnuotos)
    * Malayalam, Tamil, Hindi, Oriya, Kannda, Telugu, Bengali, Gujarati and Panjabi (thanks to Santhosh Thottingal)
@@ -45,9 +45,9 @@ Supported languages are:
    * Romanian (thanks to irragal)
    * Russian (thanks to Dmitry Vedernikov)
    * Serbian Latin script (thanks to Sonja Keljevic)
-   * Slovak (thanks to Zdenko Podobný)
+   * Slovak (thanks to Zdenko Podobn&yacute;)
    * Slovenian (thanks to Mojca Miklavec)
-   * Spanish (thanks to Luis Pabón)
+   * Spanish (thanks to Luis Pab&oacute;n)
    * Swedish (thanks to Andreas Johansson)
    * Turkish (thanks to Andreas Lappe)
    * Ukrainian (thanks to Alexey Grekov)
@@ -100,27 +100,31 @@ Dieser Text wird mit deutscher Silbentrennung verarbeitet.
 
 
 ---++ Installation Instructions
-
 %$INSTALL_INSTRUCTIONS%
 
----++ Info
-<!--
-   * Set SHORTDESCRIPTION = %$SHORTDESCRIPTION%
--->
+---++ Dependencies
+%$DEPENDENCIES%
 
-|  Author(s): | Michael Daum|
-|  Copyright: | &copy; 2011-2013 Mathias Nater http://code.google.com/p/hyphenator/ (Hyphenator.js) %BR% \
-                &copy; 2011-2014 Michael Daum http://michaeldaumconsulting.com (foswiki integration) |
-|  License: | [[http://www.gnu.org/licenses/lgpl.html][GNU Lesser General Public License]] |
-|  Release: | %$RELEASE% |
-|  Version: | %$VERSION% |
-|  Change History: | <!-- versions below in reverse order -->&nbsp; |
+---++ Copyright
+   *  &copy; 2011-2015 Mathias Nater https://github.com/mnater/Hyphenator
+   *  &copy; 2011-2016 Michael Daum http://michaeldaumconsulting.com (foswiki integration) 
+
+---++ Change History
+|  02 Sep 2016: | (4.00) updated to hyphenate 5.1.0 |
 |  28 Aug 2014: | (3.02) use https by default talking to google |
 |  15 Mar 2014: | (3.01) fixed syntax error in contrib stub |
 |  07 Nov 2013: | (3.00) upgraded to Hyphenator-4.2.0 |
 |  09 Aug 2011: | (2.00) upgraded to Hyphenator-4.0.0 |
 |  10 Jun 2011: | (1.01) recognize language tags using underscores as well as hyphens |
 |  06 Jun 2011: | (1.0) initial release of foswiki plugin |
-|  Dependencies: | %$DEPENDENCIES% |
-|  Home page: | Foswiki:Extensions/%TOPIC% |
-|  Support: | Foswiki:Support/%TOPIC% |
+
+%META:FORM{name="PackageForm"}%
+%META:FIELD{name="Author" title="Author" value="Michael Daum"}%
+%META:FIELD{name="Copyright" title="Copyright" value="see above"}%
+%META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
+%META:FIELD{name="Home" title="Home" value="Foswiki:Extensions/%TOPIC%"}%
+%META:FIELD{name="License" title="License" value="[[http://www.gnu.org/licenses/lgpl.html][GNU Lesser General Public License]]"}%
+%META:FIELD{name="Release" title="Release" value="%$RELEASE%"}%
+%META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%TOPIC%"}%
+%META:FIELD{name="Support" title="Support" value="Foswiki:Support/%TOPIC%"}%
+%META:FIELD{name="Version" title="Version" value="%$VERSION%"}%

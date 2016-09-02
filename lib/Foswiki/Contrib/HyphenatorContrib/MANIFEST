@@ -1,12 +1,15 @@
 data/System/HyphenatorContrib.txt 0644
 lib/Foswiki/Contrib/HyphenatorContrib/Config.spec 0644
 lib/Foswiki/Contrib/HyphenatorContrib/Core.pm 0644
+lib/Foswiki/Contrib/HyphenatorContrib/DEPENDENCIES 0644
 lib/Foswiki/Contrib/HyphenatorContrib.pm 0644
 pub/System/HyphenatorContrib/hyphenator.init.js 0644
 pub/System/HyphenatorContrib/hyphenator.init.js.gz 0644
 pub/System/HyphenatorContrib/hyphenator.init.uncompressed.js 0644
 pub/System/HyphenatorContrib/hyphenator.js 0644
+pub/System/HyphenatorContrib/Hyphenator.js 0644
 pub/System/HyphenatorContrib/hyphenator.js.gz 0644
+pub/System/HyphenatorContrib/hyphenator_loader.uncompressed.js 0644
 pub/System/HyphenatorContrib/hyphenator.uncompressed.js 0644
 pub/System/HyphenatorContrib/Makefile 0644
 pub/System/HyphenatorContrib/patterns/be.js 0644
@@ -45,6 +48,7 @@ pub/System/HyphenatorContrib/patterns/ro.js 0644
 pub/System/HyphenatorContrib/patterns/ru.js 0644
 pub/System/HyphenatorContrib/patterns/sk.js 0644
 pub/System/HyphenatorContrib/patterns/sl.js 0644
+pub/System/HyphenatorContrib/patterns/sr-cyrl.js 0644
 pub/System/HyphenatorContrib/patterns/sr-latn.js 0644
 pub/System/HyphenatorContrib/patterns/sv.js 0644
 pub/System/HyphenatorContrib/patterns/ta.js 0644

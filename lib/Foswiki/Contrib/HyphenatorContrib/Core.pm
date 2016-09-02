@@ -1,6 +1,6 @@
 # Plugin for Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 #
-# HyphenatorContrib is Copyright (C) 2011-2014 Michael Daum http://michaeldaumconsulting.com
+# HyphenatorContrib is Copyright (C) 2011-2016 Michael Daum http://michaeldaumconsulting.com
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -37,10 +37,10 @@ sub new {
     $class->SUPER::new(
       $session,
       name => 'Hyphenator',
-      version => '4.2.0',
+      version => '5.1.0',
       author => 'Mathias Nater',
-      homepage => 'http://code.google.com/p/hyphenator/',
-      javascript => ['hyphenator.js', 'hyphenator.init.js'],
+      homepage => 'http://mnater.github.io/Hyphenator/',
+      javascript => ['hyphenator.js'],
       puburl => '%PUBURLPATH%/%SYSTEMWEB%/HyphenatorContrib',
     ),
     $class

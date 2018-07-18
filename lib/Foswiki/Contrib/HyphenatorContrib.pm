@@ -1,6 +1,6 @@
 # Plugin for Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 #
-# HyphenatorContrib is Copyright (C) 2011-2016 Michael Daum http://michaeldaumconsulting.com
+# HyphenatorContrib is Copyright (C) 2011-2018 Michael Daum http://michaeldaumconsulting.com
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -18,14 +18,9 @@ package Foswiki::Contrib::HyphenatorContrib;
 use strict;
 use warnings;
 
-our $VERSION = '4.00';
-our $RELEASE = '02 Sep 2016';
+our $VERSION = '5.00';
+our $RELEASE = '17 Jun 2018';
 our $SHORTDESCRIPTION = 'Automatically hyphenates text';
 our $NO_PREFS_IN_TOPIC = 1;
-
-sub init {
-  require Foswiki::Plugins::JQueryPlugin;
-  Foswiki::Plugins::JQueryPlugin::registerPlugin("Hyphenator", "Foswiki::Contrib::HyphenatorContrib::Core");
-}
 
 1;

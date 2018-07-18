@@ -1,3 +1,4 @@
+!noci
 data/System/HyphenatorContrib.txt 0644
 lib/Foswiki/Contrib/HyphenatorContrib/Config.spec 0644
 lib/Foswiki/Contrib/HyphenatorContrib/Core.pm 0644
@@ -9,13 +10,13 @@ pub/System/HyphenatorContrib/hyphenator.init.uncompressed.js 0644
 pub/System/HyphenatorContrib/hyphenator.js 0644
 pub/System/HyphenatorContrib/Hyphenator.js 0644
 pub/System/HyphenatorContrib/hyphenator.js.gz 0644
-pub/System/HyphenatorContrib/hyphenator_loader.uncompressed.js 0644
 pub/System/HyphenatorContrib/hyphenator.uncompressed.js 0644
 pub/System/HyphenatorContrib/Makefile 0644
 pub/System/HyphenatorContrib/patterns/be.js 0644
 pub/System/HyphenatorContrib/patterns/bn.js 0644
 pub/System/HyphenatorContrib/patterns/ca.js 0644
 pub/System/HyphenatorContrib/patterns/cs.js 0644
+pub/System/HyphenatorContrib/patterns/cu.js 0644
 pub/System/HyphenatorContrib/patterns/da.js 0644
 pub/System/HyphenatorContrib/patterns/de.js 0644
 pub/System/HyphenatorContrib/patterns/el-monoton.js 0644
@@ -27,12 +28,14 @@ pub/System/HyphenatorContrib/patterns/es.js 0644
 pub/System/HyphenatorContrib/patterns/et.js 0644
 pub/System/HyphenatorContrib/patterns/fi.js 0644
 pub/System/HyphenatorContrib/patterns/fr.js 0644
+pub/System/HyphenatorContrib/patterns/ga.js 0644
 pub/System/HyphenatorContrib/patterns/grc.js 0644
 pub/System/HyphenatorContrib/patterns/gu.js 0644
 pub/System/HyphenatorContrib/patterns/hi.js 0644
 pub/System/HyphenatorContrib/patterns/hu.js 0644
 pub/System/HyphenatorContrib/patterns/hy.js 0644
 pub/System/HyphenatorContrib/patterns/it.js 0644
+pub/System/HyphenatorContrib/patterns/ka.js 0644
 pub/System/HyphenatorContrib/patterns/kn.js 0644
 pub/System/HyphenatorContrib/patterns/la.js 0644
 pub/System/HyphenatorContrib/patterns/lt.js 0644

@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="ProjectContributor" comment="reprev" date="1307359498" format="1.1" reprev="2" version="2"}%
+%META:TOPICINFO{author="ProjectContributor" comment="" date="1531906107" format="1.1"  version="1"}%
 ---+!! %TOPIC%
 %FORMFIELD{"Description"}%
 
@@ -20,37 +20,40 @@ Hyphenator.js ...
 
 Supported languages are:
 
-   * Armenian (thanks to Sahak Petrosyan)
-   * Belarusian (thanks to Olexandr Zhydenko)
-   * Catalan (thanks to Jordi Rosell)
-   * Czech (thanks to Martin Haso&#328;)
-   * Danish (thanks to Henrik Ryom)
-   * Dutch (thanks to Remco Bloemen)
+   * Armenian (Sahak Petrosyan)
+   * Belarusian (Olexandr Zhydenko)
+   * Catalan (Jordi Rosell)
+   * Church Slavonic (Aleksandr Andreev and Mike Kroutikov)
+   * Czech (Martin Haso&#328;)
+   * Danish (Henrik Ryom)
+   * Dutch (Remco Bloemen)
    * English (US and GB)
-   * Esperanto (thanks to Sergio Pokrovskij)
-   * Estonian (thanks to Enn Saar and Peeter Marvet)
-   * Finnish (thanks to Olli Wilkman)
+   * Esperanto (Sergio Pokrovskij)
+   * Estonian (Enn Saar and Peeter Marvet)
+   * Finnish (Olli Wilkman)
    * French
+   * Georgian 
    * German
-   * Greek, monoton, polyton and ancient (thanks to Pablo Rodr&iacute;guez)
-   * Hungarian (thanks to P&eacute;ter Nagy)
-   * Italian (thanks to Stefano Gorini)
-   * Latin (thanks to Pablo Rodr&iacute;guez)
-   * Latvian (thanks to Kristaps Karlsons)
-   * Lithuanian (thanks to Rogut&#279;s Sparnuotos)
-   * Malayalam, Tamil, Hindi, Oriya, Kannda, Telugu, Bengali, Gujarati and Panjabi (thanks to Santhosh Thottingal)
-   * Norwegian (thanks to Erik Erik Seierstad)
-   * Polish (thanks to Kamil)
-   * Portuguese (thanks to Lailson Bandeira)
-   * Romanian (thanks to irragal)
-   * Russian (thanks to Dmitry Vedernikov)
-   * Serbian Latin script (thanks to Sonja Keljevic)
-   * Slovak (thanks to Zdenko Podobn&yacute;)
-   * Slovenian (thanks to Mojca Miklavec)
-   * Spanish (thanks to Luis Pab&oacute;n)
-   * Swedish (thanks to Andreas Johansson)
-   * Turkish (thanks to Andreas Lappe)
-   * Ukrainian (thanks to Alexey Grekov)
+   * Greek, monoton, polyton and ancient (Pablo Rodr&iacute;guez)
+   * Hungarian (P&eacute;ter Nagy)
+   * Irish (Kevin Scannell)
+   * Italian (Stefano Gorini)
+   * Latin (Pablo Rodr&iacute;guez)
+   * Latvian (Kristaps Karlsons)
+   * Lithuanian (Rogut&#279;s Sparnuotos)
+   * Malayalam, Tamil, Hindi, Oriya, Kannda, Telugu, Bengali, Gujarati and Panjabi (Santhosh Thottingal)
+   * Norwegian (Erik Erik Seierstad)
+   * Polish (Kamil)
+   * Portuguese (Lailson Bandeira)
+   * Romanian (irragal)
+   * Russian (Dmitry Vedernikov)
+   * Serbian Latin script (Sonja Keljevic)
+   * Slovak (Zdenko Podobn&yacute;)
+   * Slovenian (Mojca Miklavec)
+   * Spanish (Luis Pab&oacute;n)
+   * Swedish (Andreas Johansson)
+   * Turkish (Andreas Lappe)
+   * Ukrainian (Alexey Grekov)
 
 A custom jQuery adapter makes sure text loaded asynchronously is processed later on.
 
@@ -106,10 +109,12 @@ Dieser Text wird mit deutscher Silbentrennung verarbeitet.
 %$DEPENDENCIES%
 
 ---++ Copyright
-   *  &copy; 2011-2015 Mathias Nater https://github.com/mnater/Hyphenator
-   *  &copy; 2011-2016 Michael Daum http://michaeldaumconsulting.com (foswiki integration) 
+   *  &copy; 2011-2017 Mathias Nater https://github.com/mnater/Hyphenator
+   *  &copy; 2011-2018 Michael Daum https://michaeldaumconsulting.com (foswiki integration) 
 
 ---++ Change History
+%TABLE{columnwidths="7em" tablewidth="100%"}%
+|  17 Jul 2018: | (5.00) updated to hyphenate 5.3.0 |
 |  02 Sep 2016: | (4.00) updated to hyphenate 5.1.0 |
 |  28 Aug 2014: | (3.02) use https by default talking to google |
 |  15 Mar 2014: | (3.01) fixed syntax error in contrib stub |

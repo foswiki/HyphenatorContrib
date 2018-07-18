@@ -4,6 +4,7 @@ attic
 tmp
 pub/System/HyphenatorContrib/hyphenator.init.js
 pub/System/HyphenatorContrib/hyphenator.js
+pub/System/HyphenatorContrib/git
 /HyphenatorContrib.md5
 /HyphenatorContrib.sha1
 /HyphenatorContrib.tgz
